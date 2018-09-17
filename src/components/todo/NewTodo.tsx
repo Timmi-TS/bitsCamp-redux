@@ -4,8 +4,8 @@ import { FormComponentProps } from 'antd/lib/form/Form';
 import { connect } from 'react-redux';
 import { Dispatch } from 'redux';
 // import { ApplicationState } from '../store';
-import { Todo } from '../store/todos';
-import * as todosActions from '../store/todos/actions';
+import { Todo } from '../../store/todos';
+import * as todosActions from '../../store/todos/actions';
 
 interface PropsFromDispatch {
     addTodo: typeof todosActions.addTodo;

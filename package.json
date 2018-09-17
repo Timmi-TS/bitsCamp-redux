@@ -2,6 +2,7 @@
   "name": "redux",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.tsx",
   "dependencies": {
     "antd": "^3.9.2",
     "autoprefixer": "7.1.6",

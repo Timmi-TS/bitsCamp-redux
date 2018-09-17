@@ -4,9 +4,9 @@ import NewTodo from './NewTodo'
 import Counter from './Counter'
 import { connect } from 'react-redux';
 import { Dispatch } from 'redux';
-import { ApplicationState } from '../store';
-import { Todo } from '../store/todos';
-import * as todosActions from '../store/todos/actions';
+import { ApplicationState } from '../../store';
+import { Todo } from '../../store/todos';
+import * as todosActions from '../../store/todos/actions';
 
 import TodoEntry from './TodoEntry';
 

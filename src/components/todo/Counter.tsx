@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { ApplicationState } from '../store';
+import { ApplicationState } from '../../store';
 import { Badge } from 'antd';
 // import { Todo } from '../store/list'
 // import * as listActions from '../store/list/actions'

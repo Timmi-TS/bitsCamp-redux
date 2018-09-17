@@ -3,7 +3,7 @@ import { Provider, connect } from 'react-redux';
 import { Store } from 'redux';
 import { ApplicationState } from '../store';
 import './App.css';
-import TodoList from './List';
+import TodoList from './todo/List';
 
 interface PropsFromDispatch {
     [key: string]: any;
@@ -21,7 +21,7 @@ class App extends React.PureComponent<AllProps> {
             <Provider store={this.props.store}>
                 <div className="App">
                     <header className="App-header">
-                        <h1 className="App-title">TodoList</h1>
+                        <h1 className="App-title">bitsCamp - Redux</h1>
                     </header>
                     <div className="App-content">
                         <TodoList />

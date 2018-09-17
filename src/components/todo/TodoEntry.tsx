@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Todo } from '../store/todos';
+import { Todo } from '../../store/todos';
 import {  Button } from 'antd';
 
 interface ParentProps {
